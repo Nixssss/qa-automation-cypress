@@ -112,6 +112,22 @@ https://front.serverest.dev
 
 ---
 
+## Evidências (screenshots)
+
+### Login com sucesso
+![Login com sucesso](assets/login-sucesso.jpg)
+
+### Login com senha inválida
+![Login com senha inválida](assets/login-invalido.jpg)
+
+### Cadastro de produto
+![Cadastro de produto](assets/cadastro-produto.jpg)
+
+### Lista dos produtos
+![Lista dos produtos](assets/lista-produtos.jpg)
+
+---
+
 ## Autor
 
 Murilo Ferreira  
