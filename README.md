@@ -49,35 +49,51 @@ package.json
 
 ---
 
+## Evidências (screenshots)
+
+### Login com sucesso
+![Login com sucesso](assets/login-sucesso.jpg)
+
+### Login com senha inválida
+![Login inválido](assets/login-invalido.jpg)
+
+### Cadastro de produto
+![Cadastro de produto](assets/cadastro-produto.jpg)
+
+### Lista de produtos
+![Lista de produtos](assets/lista-produtos.jpg)
+
+---
+
 ## Como executar o projeto
 
-### Clonar o repositório
+### 1️⃣ Clonar o repositório
 
 ```bash
 git clone https://github.com/Nixssss/qa-automation-cypress.git
 ```
 
-### Entrar na pasta
+### 2️⃣ Entrar na pasta do projeto
 
 ```bash
 cd qa-automation-cypress
 ```
 
-### Instalar dependências
+### 3️⃣ Instalar dependências
 
 ```bash
 npm install
 ```
 
-### Executar os testes
+### 4️⃣ Executar os testes
 
-Abrir o Cypress:
+Abrir interface do Cypress:
 
 ```bash
 npx cypress open
 ```
 
-Executar em modo headless:
+Executar testes em modo headless:
 
 ```bash
 npx cypress run
@@ -108,27 +124,27 @@ Esse arquivo está incluído no `.gitignore` para evitar exposição de credenci
 
 ## Aplicação utilizada nos testes
 
+Os testes utilizam a aplicação de demonstração:
+
 https://front.serverest.dev
 
 ---
 
-## Evidências (screenshots)
+## Objetivo do projeto
 
-### Login com sucesso
-![Login com sucesso](assets/login-sucesso.jpg)
+Este projeto foi desenvolvido para praticar:
 
-### Login com senha inválida
-![Login com senha inválida](assets/login-invalido.jpg)
-
-### Cadastro de produto
-![Cadastro de produto](assets/cadastro-produto.jpg)
-
-### Lista dos produtos
-![Lista dos produtos](assets/lista-produtos.jpg)
+- automação de testes E2E
+- uso do Cypress
+- criação de comandos customizados
+- organização de testes automatizados
+- uso de variáveis de ambiente
+- versionamento com Git e GitHub
 
 ---
 
 ## Autor
 
 Murilo Ferreira  
+
 Projeto de estudo em **Quality Assurance / Test Automation**
