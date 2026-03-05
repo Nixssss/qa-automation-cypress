@@ -1,9 +1,7 @@
-import './commands'
-
 describe('Cadastrar Produto', () => {
   beforeEach(() => {
     cy.env(['USER_EMAIL', 'USER_PASS']).then(({ USER_EMAIL, USER_PASS }) => {
-      cy.loginSuccess(USER_EMAIL, USER_PASS)
+      cy.login(USER_EMAIL, USER_PASS)
     })
   })
   it('Cadastro com sucesso', () => {
